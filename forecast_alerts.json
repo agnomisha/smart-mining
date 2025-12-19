@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2025-10-06 14:18:17",
+    "parameter": "gas",
+    "forecast": [
+      805.96,
+      805.64,
+      805.41
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:28",
+    "parameter": "gas",
+    "forecast": [
+      806.73,
+      806.88,
+      806.99
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:28",
+    "parameter": "gas",
+    "forecast": [
+      806.25,
+      806.25,
+      806.25
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:28",
+    "parameter": "gas",
+    "forecast": [
+      806.81,
+      806.86,
+      806.89
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:28",
+    "parameter": "magnitude",
+    "forecast": [
+      5.06,
+      5.06,
+      5.06
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:29",
+    "parameter": "humidity",
+    "forecast": [
+      57.0,
+      57.0,
+      57.0
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:29",
+    "parameter": "humidity",
+    "forecast": [
+      57.0,
+      57.0,
+      57.0
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:30",
+    "parameter": "humidity",
+    "forecast": [
+      57.0,
+      57.0,
+      57.0
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:30",
+    "parameter": "gas",
+    "forecast": [
+      805.56,
+      805.99,
+      806.14
+    ]
+  },
+  {
+    "timestamp": "2025-10-06 14:19:30",
+    "parameter": "humidity",
+    "forecast": [
+      57.0,
+      57.0,
+      57.0
+    ]
+  }
+]]
