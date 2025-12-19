@@ -6,7 +6,7 @@ This project is a real-time **IoT-based mining safety system** designed to prote
 
 ## 🛠 Features
 
-* **Real-time Monitoring**: Tracks CO₂, Temperature, Humidity, and Vibration (Acceleration Magnitude)[cite: 8, 9, 16].
+* **Real-time Monitoring**: Tracks CO₂, Temperature, Humidity, and Vibration (Acceleration Magnitude).
 * **5G Optimized**: Designed for fast communication and low latency between the hardware and the cloud server.
 * **Threat Classification**: 
     * **Gas Leakage**: Triggered when gas levels exceed 850.
@@ -20,7 +20,7 @@ This project is a real-time **IoT-based mining safety system** designed to prote
 
 ## 🏗 System Architecture
 
-1.  **Hardware (Edge)**: An Arduino collects data from MQ135, DHT11, and ADXL335 sensors[cite: 1, 2, 3].
+1.  **Hardware (Edge)**: An Arduino collects data from MQ135, DHT11, and ADXL335 sensors.
 2.  **Communication**: Sensor data is transmitted via HTTP POST requests to the `/sensor` or `/api/send` endpoints.
 3.  **Backend (Server)**: A Flask-based Python server processes incoming data, runs threat detection logic, and performs time series analysis.
 4.  **Frontend (Dashboard)**: A web interface displays recent readings and forecasts separately for the operator.
@@ -29,7 +29,7 @@ This project is a real-time **IoT-based mining safety system** designed to prote
 
 ## 📂 File Structure
 
-* `arduinocode.ino`: Firmware for the Arduino to read sensors, calculate CO₂ ppm using a moving average filter, and determine G-force magnitude[cite: 4, 8, 16, 19].
+* `arduinocode.ino`: Firmware for the Arduino to read sensors, calculate CO₂ ppm using a moving average filter, and determine G-force magnitude.
 * `server1.py`: Flask backend containing the API, forecasting logic, and threat detection.
 * `sensor_data.csv`: Local database for storing historical sensor readings including timestamps and protocols.
 
@@ -40,8 +40,8 @@ This project is a real-time **IoT-based mining safety system** designed to prote
 ### 1. Hardware Setup
 Connect your sensors to the following pins as defined in the firmware:
 * **MQ135 (Gas)**: Pin A0.
-* **DHT11 (Temp/Hum)**: Pin 2[cite: 2].
-* **ADXL335 (Accel)**: X-Pin (A1), Y-Pin (A2), Z-Pin (A3)[cite: 3].
+* **DHT11 (Temp/Hum)**: Pin 2.
+* **ADXL335 (Accel)**: X-Pin (A1), Y-Pin (A2), Z-Pin (A3).
 
 ### 2. Backend Installation
 Ensure you have Python 3.x installed, then install the required dependencies:
