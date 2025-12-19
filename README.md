@@ -42,6 +42,7 @@ Connect your sensors to the following pins as defined in the firmware:
 * **MQ135 (Gas)**: Pin A0.
 * **DHT11 (Temp/Hum)**: Pin 2.
 * **ADXL335 (Accel)**: X-Pin (A1), Y-Pin (A2), Z-Pin (A3).
+<img src="mine_photo.jpeg" alt="Project Image" width="50%">
 
 ### 2. Backend Installation
 Ensure you have Python 3.x installed, then install the required dependencies:
